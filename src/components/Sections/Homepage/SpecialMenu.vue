@@ -1,6 +1,6 @@
 <template>
     <BackGroundImageTempleteVue
-      :imgLocation="'/public/Img/burger.jpg'"
+      :imgLocation="'/Img/burger.jpg'"
       imgPostion="bg-center"
       bgGradient="gra-dark-dark"
       

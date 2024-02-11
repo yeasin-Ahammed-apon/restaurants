@@ -1,12 +1,12 @@
 <template>
   <BackGroundImageTempleteVue
-    :imgLocation="'/public/Img/pizza.jpg'"
+    :imgLocation="'/Img/pizza.jpg'"
     imgPostion="bg-center"
     bgGradient="gra-ltr-dark"
   >
     <div class="grid md:grid-cols-2">
       <div class="order-1 p-10 md:p-24">
-        <img src="/public/Img/intario.jpg" class="border-4 p-4  border-yellow-300" alt="" />
+        <img src="/Img/intario.jpg" class="border-4 p-4  border-yellow-300" alt="" />
       </div>      
       <div v-motion-slide-visible-once-bottom class="order-2 duration-700 mt-10 ps-6 md:mt-20 md:pe-9">          
             <div  class=" text-xl text-yellow-300 md:my-6">FRESH & TASTY FOOD</div>

@@ -1,7 +1,7 @@
 <template>
     <TempleteVue :datas="datas">    
         <template #image>
-            <img src="/public/Img/intario.jpg" alt="">
+            <img src="/Img/intario.jpg" alt="">
         </template>    
     </TempleteVue>
 </template>

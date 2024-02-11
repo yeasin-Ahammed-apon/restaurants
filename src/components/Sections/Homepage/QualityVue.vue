@@ -1,12 +1,12 @@
 <template>
     <BackGroundImageTempleteVue
-      :imgLocation="'/public/Img/pizza.jpg'"
+      :imgLocation="'/Img/pizza.jpg'"
       imgPostion="bg-center"
       bgGradient="gra-ltr-dark"
     >
       <div class="grid md:grid-cols-2 items-center">
         <div class="order-1">
-          <img class="bg-cover" src="/public/Img/intario2.jpg" alt="" />
+          <img class="bg-cover" src="/Img/intario2.jpg" alt="" />
         </div>      
         <div v-motion-slide-visible-once-bottom class="order-2 duration-700">                      
              <div class=" grid md:grid-cols-2 grid-cols-1 justify-center content-center items-center gap-4">
@@ -19,7 +19,7 @@
                 </div>
                 <div class="">                    
                     <div class="w-fit">
-                        <img class="px-10 md:px-20 animate-pulse rounded-lg " src="/public/Img/food1.jpg" alt="">                    
+                        <img class="px-10 md:px-20 animate-pulse rounded-lg " src="/Img/food1.jpg" alt="">                    
                     </div>
                 </div>
                 <div v-for="(data,index) in datas" :key="index" class="gra-dark-red p-1 md:m-3 rounded-lg mx-2 px-3 py-10">                    

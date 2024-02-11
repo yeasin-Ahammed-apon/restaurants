@@ -1,7 +1,7 @@
 <template>
   <div
     :class="`border-blur ${imgPostion} bg-repeat-y`"
-    :style="`background-image: url('${imgLocation}')`"
+    :style="`background: url('${imgLocation}')`"
   >
     <div :class="` w-full ${bgGradient||''}  `">
       <slot></slot>

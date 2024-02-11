@@ -2,7 +2,7 @@
     <TempleteVue :datas="datas">    
         <template #image>
             <div class="flex justify-center">
-                <img class="w-1/2 h-1/2" src="/public/Img/pizza.jpg" alt="">
+                <img class="w-1/2 h-1/2" src="/Img/pizza.jpg" alt="">
             </div>
         </template>    
     </TempleteVue>

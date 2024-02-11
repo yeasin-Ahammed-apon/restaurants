@@ -1,11 +1,11 @@
 <template>
     <BackGroundImageTempleteVue
-      :imgLocation="'/public/Img/pizza.jpg'"
+      :imgLocation="'/Img/pizza.jpg'"
       imgPostion="bg-center"
       bgGradient="gra-ltr-dark"
     >
       <div class="grid md:grid-cols-2 items-center pb-10">        
-          <img class="bg-cover" src="/public/Img/intario2.jpg" alt="" />        
+          <img class="bg-cover" src="/Img/intario2.jpg" alt="" />        
         <div v-motion-slide-visible-once-bottom class="duration-700  flex justify-center text-center">                      
             <div class="p-3 ">                    
                         <div  class=" text-xl text-yellow-400 md:my-6">NEWSLETTER</div>
