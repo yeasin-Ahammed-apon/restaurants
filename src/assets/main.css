@@ -1,0 +1,28 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+.border-blur{
+    box-shadow: inset 0px 0px 200px 100px #181616
+}
+.gfont{
+  font-family: 'Protest Guerrilla', sans-serif;
+}
+@layer components {
+   .gra-rtl-dark{    
+    @apply bg-gradient-to-r from-slate-950 to-transparent
+  }
+  .gra-ltr-dark{
+    @apply bg-gradient-to-l from-slate-950 to-transparent
+  }
+  .gra-dark-red{
+    @apply bg-gradient-to-l from-slate-950 via-transparent to-red-950
+  }
+  .gra-red-dark{
+    @apply bg-gradient-to-l from-red-950 via-transparent to-slate-950
+  }
+  .gra-dark-dark{
+    @apply bg-gradient-to-l from-slate-950 via-transparent to-slate-950
+  }  
+}
+
+  
