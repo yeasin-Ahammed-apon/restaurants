@@ -1,12 +1,12 @@
 <template>
     <BackGroundImageTempleteVue
-      :imgLocation="'/src/assets/Img/pizza.jpg'"
+      :imgLocation="'/public/Img/pizza.jpg'"
       imgPostion="bg-center"
       bgGradient="gra-ltr-dark"
     >
       <div class="grid md:grid-cols-2 items-center">
         <div class="md:order-2">
-          <img class="bg-cover" src="/src/assets/Img/intario2.jpg" alt="" />
+          <img class="bg-cover" src="/public/Img/intario2.jpg" alt="" />
         </div>      
         <div v-motion-slide-visible-once-bottom class="duration-700 md:order-1">                      
             <div class="p-3 ">                    

@@ -1,6 +1,6 @@
 <template>
   <BackGroundImageTempleteVue
-    :imgLocation="'/src/assets/Img/pizza.jpg'"
+    :imgLocation="'/public/Img/pizza.jpg'"
     imgPostion="bg-center"
     bgGradient="gra-ltr-dark"    
   >
@@ -43,10 +43,10 @@
 import BackGroundImageTempleteVue from "@/components/BackGroundImageTemplete.vue";
 import { ref } from "vue";
 const datas = ref([
-    {name:"Some Random name",designation:"CEO, Reputed Company",img:"/src/assets/Img/avatar.png",comment:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, non? Facilis culpa magnam labore libero, explicabo natus animi optio consectetur repudiandae nihil perferendis laborum dolore enim itaque vel illo quos!"},
-    {name:"Some Random name1",designation:"CEO, Reputed Company",img:"/src/assets/Img/avatar.png",comment:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, non? Facilis culpa magnam labore libero, explicabo natus animi optio consectetur repudiandae nihil perferendis laborum dolore enim itaque vel illo quos!"},
-    {name:"Some Random name2",designation:"CEO, Reputed Company",img:"/src/assets/Img/avatar.png",comment:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, non? Facilis culpa magnam labore libero, explicabo natus animi optio consectetur repudiandae nihil perferendis laborum dolore enim itaque vel illo quos!"},
-    {name:"Some Random name3",designation:"CEO, Reputed Company",img:"/src/assets/Img/avatar.png",comment:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, non? Facilis culpa magnam labore libero, explicabo natus animi optio consectetur repudiandae nihil perferendis laborum dolore enim itaque vel illo quos!"},
+    {name:"Some Random name",designation:"CEO, Reputed Company",img:"/public/Img/avatar.png",comment:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, non? Facilis culpa magnam labore libero, explicabo natus animi optio consectetur repudiandae nihil perferendis laborum dolore enim itaque vel illo quos!"},
+    {name:"Some Random name1",designation:"CEO, Reputed Company",img:"/public/Img/avatar.png",comment:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, non? Facilis culpa magnam labore libero, explicabo natus animi optio consectetur repudiandae nihil perferendis laborum dolore enim itaque vel illo quos!"},
+    {name:"Some Random name2",designation:"CEO, Reputed Company",img:"/public/Img/avatar.png",comment:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, non? Facilis culpa magnam labore libero, explicabo natus animi optio consectetur repudiandae nihil perferendis laborum dolore enim itaque vel illo quos!"},
+    {name:"Some Random name3",designation:"CEO, Reputed Company",img:"/public/Img/avatar.png",comment:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, non? Facilis culpa magnam labore libero, explicabo natus animi optio consectetur repudiandae nihil perferendis laborum dolore enim itaque vel illo quos!"},
 ])
 </script>
   

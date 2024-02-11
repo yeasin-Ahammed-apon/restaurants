@@ -1,7 +1,7 @@
 
 <template>
   <BackGroundImageTempleteVue
-    :imgLocation="'/src/assets/Img/pizza.jpg'"
+    :imgLocation="'/public/Img/pizza.jpg'"
     imgPostion="bg-center"
     bgGradient="gra-ltr-dark"
     class="bg-fixed"

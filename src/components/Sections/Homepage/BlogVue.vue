@@ -1,6 +1,6 @@
 <template>
     <BackGroundImageTempleteVue
-      :imgLocation="'/src/assets/Img/pizza.jpg'"
+      :imgLocation="'/public/Img/pizza.jpg'"
       imgPostion="bg-center"
       bgGradient="gra-ltr-dark"    
     >
@@ -41,9 +41,9 @@
   import BackGroundImageTempleteVue from "@/components/BackGroundImageTemplete.vue";
   import { ref } from "vue";
   const datas = ref([
-      {name:"Some Random name",time:"Date:November 9, 2023 By: ",img:"/src/assets/Img/intario.jpg",details:"It is very important to make healthy kitchen for fresh food"},
-      {name:"Some Random name1",time:"Date:November 9, 2023 By: ",img:"/src/assets/Img/intario.jpg",details:"It is very important to make healthy kitchen for fresh food"},
-      {name:"Some Random name2",time:"Date:November 9, 2023 By: ",img:"/src/assets/Img/intario.jpg",details:"It is very important to make healthy kitchen for fresh food"},      
+      {name:"Some Random name",time:"Date:November 9, 2023 By: ",img:"/public/Img/intario.jpg",details:"It is very important to make healthy kitchen for fresh food"},
+      {name:"Some Random name1",time:"Date:November 9, 2023 By: ",img:"/public/Img/intario.jpg",details:"It is very important to make healthy kitchen for fresh food"},
+      {name:"Some Random name2",time:"Date:November 9, 2023 By: ",img:"/public/Img/intario.jpg",details:"It is very important to make healthy kitchen for fresh food"},      
   ])
   </script>
     

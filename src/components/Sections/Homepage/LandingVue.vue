@@ -1,5 +1,5 @@
 <template>  
-    <BackGroundImageTempleteVue imgLocation='/src/assets/Img/pizza.jpg'
+    <BackGroundImageTempleteVue imgLocation='/public/Img/pizza.jpg'
       imgPostion="bg-center" bgGradient="gra-rtl-dark"
     >          
     <div v-motion-slide-visible-once-bottom class=" duration-700 h-screen pt-40 ps-6 md:pt-40 md:ps-9">          
