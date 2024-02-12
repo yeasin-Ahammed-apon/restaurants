@@ -10,7 +10,7 @@
       </div>      
       <div v-motion
     :initial="{opacity:0,y:100}"
-    :enter="{opacity:1,y:0}"     class="order-2 duration-700 mt-10 ps-6 md:mt-20 md:pe-9">          
+    :visible="{opacity:1,y:0}"    class="order-2 duration-700 mt-10 ps-6 md:mt-20 md:pe-9">          
             <div  class=" text-xl text-yellow-300 md:my-6">FRESH & TASTY FOOD</div>
             <div  class="md:text-3xl text-4xl text-gray-50 font-extrabold uppercase md:my-6">
               A Sophisticated and <br>

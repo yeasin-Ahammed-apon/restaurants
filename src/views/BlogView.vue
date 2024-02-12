@@ -9,7 +9,7 @@
     <div class="flex justify-center items-center h-screen">
         <span v-motion
     :initial="{opacity:0,y:100}"
-    :enter="{opacity:1,y:0}"     class="duration-700 text-2xl md:text-9xl text-white font-extrabold">
+    :enter="{opacity:1,y:0}"       class="duration-700 text-2xl md:text-9xl text-white font-extrabold">
           Blog Page
       </span>
     </div>

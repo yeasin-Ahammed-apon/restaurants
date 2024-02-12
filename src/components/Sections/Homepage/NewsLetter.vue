@@ -8,7 +8,7 @@
           <img class="bg-cover" src="/Img/intario2.jpg" alt="" />        
         <div v-motion
     :initial="{opacity:0,y:100}"
-    :enter="{opacity:1,y:0}"     class="duration-700  flex justify-center text-center">                      
+    :visible="{opacity:1,y:0}"    class="duration-700  flex justify-center text-center">                      
             <div class="p-3 ">                    
                         <div  class=" text-xl text-yellow-400 md:my-6">NEWSLETTER</div>
                         <div  class="md:text-3xl text-xl text-gray-50 font-extrabold uppercase md:my-6">
