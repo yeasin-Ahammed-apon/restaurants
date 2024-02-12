@@ -8,7 +8,9 @@
         <div class="order-1">
           <img class="bg-cover" src="/Img/intario2.jpg" alt="" />
         </div>      
-        <div v-motion-slide-visible-once-bottom class="order-2 duration-700">                      
+        <div v-motion
+    :initial="{opacity:0,y:100}"
+    :enter="{opacity:1,y:0}"     class="order-2 duration-700">                      
              <div class=" grid md:grid-cols-2 grid-cols-1 justify-center content-center items-center gap-4">
                 <div class="p-3 text-center">                    
                         <div  class=" text-xl text-yellow-400 md:my-6">QUALITY & BALANCE</div>

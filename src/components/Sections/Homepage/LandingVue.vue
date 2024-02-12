@@ -2,7 +2,8 @@
     <BackGroundImageTempleteVue imgLocation='/Img/pizza.jpg'
       imgPostion="bg-center" bgGradient="gra-rtl-dark"
     >          
-    <div v-motion-slide-visible-once-bottom class=" duration-700 h-screen pt-40 ps-6 md:pt-40 md:ps-9">          
+    <div 
+     class=" duration-700 delay-200 h-screen pt-40 ps-6 md:pt-40 md:ps-9">          
             <div  class=" text-xl text-yellow-400 md:my-6">GET 35% DISCOUNT</div>
             <div  class="md:text-6xl text-4xl text-gray-50 font-extrabold uppercase md:my-6">
               Delicious & Mouth <br />

@@ -8,7 +8,9 @@
         <div class="md:order-2">
           <img class="bg-cover" src="/Img/intario2.jpg" alt="" />
         </div>      
-        <div v-motion-slide-visible-once-bottom class="duration-700 md:order-1">                      
+        <div v-motion
+    :initial="{opacity:0,y:100}"
+    :enter="{opacity:1,y:0}"     class="duration-700 md:order-1">                      
             <div class="p-3 ">                    
                         <div  class=" text-xl text-yellow-400 md:my-6">EVENT BOOKING</div>
                         <div  class="md:text-3xl text-xl text-gray-50 font-extrabold uppercase md:my-6">

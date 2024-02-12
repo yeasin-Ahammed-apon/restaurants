@@ -6,7 +6,9 @@
       
     >
     <div>      
-      <div v-motion-slide-visible-once-bottom class=" flex justify-center text-center duration-700  pt-10 ps-6  md:ps-9">          
+      <div v-motion
+    :initial="{opacity:0,y:100}"
+    :enter="{opacity:1,y:0}"     class=" flex justify-center text-center duration-700  pt-10 ps-6  md:ps-9">          
             <div>
               <div  class=" text-xl text-yellow-300 md:my-6">TEST A LITTLE BIT</div>
             <div  class="md:text-3xl text-4xl text-gray-50 font-extrabold uppercase md:my-6">

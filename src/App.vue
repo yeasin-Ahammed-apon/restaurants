@@ -16,7 +16,7 @@ import NewsLetterVue from "./components/Sections/Homepage/NewsLetter.vue";
     </div>
     <div>
       <NewsLetterVue/>
-      <FooterVueVue class="bg-fixed"/>
+      <FooterVueVue style="background-attachment:fixed"/>
     </div>
   </div>
 </template>

@@ -1,12 +1,12 @@
 <template>
  <div>
-    <LandingVueVue class="bg-fixed" />        
+    <LandingVueVue style="background-attachment:fixed" />        
     <ShortIntorVueVue/>
-    <SpecialMenuVue class="bg-fixed"/>
+    <SpecialMenuVue style="background-attachment:fixed"/>
     <QualityVueVue/>
-    <EventBookingVue class="bg-fixed"/>
+    <EventBookingVue style="background-attachment:fixed"/>
     <ReviewVue/>
-    <BlogVueVue class="bg-fixed"/>
+    <BlogVueVue style="background-attachment:fixed"/>
     
 
     

@@ -4,10 +4,12 @@
     :imgLocation="'/Img/pizza.jpg'"
     imgPostion="bg-center"
     bgGradient="gra-ltr-dark"
-    class="bg-fixed"
+    style="background-attachment:fixed"
   >
   <div class="flex justify-center items-center h-screen">
-    <span v-motion-slide-visible-once-bottom class="duration-700 text-2xl md:text-9xl text-white font-extrabold">
+    <span v-motion
+    :initial="{opacity:0,y:100}"
+    :enter="{opacity:1,y:0}"     class="duration-700 text-2xl md:text-9xl text-white font-extrabold">
         Contact Page
     </span>
   </div>

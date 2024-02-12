@@ -6,7 +6,9 @@
     >
       <div>
         <div
-          v-motion-slide-visible-once-bottom
+          v-motion
+    :initial="{opacity:0,y:100}"
+    :enter="{opacity:1,y:0}"    
           class="flex justify-center items-center duration-700 pt-10 md:pt-20"
         >
           <div>
