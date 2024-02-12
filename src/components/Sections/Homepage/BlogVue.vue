@@ -6,9 +6,7 @@
     >
       <div>
         <div
-          v-motion
-    :initial="{opacity:0,y:100}"
-    :visible="{opacity:1,y:0}"   
+          data-aos="fade-up"   
           class="flex justify-center items-center duration-700 pt-10 md:pt-20"
         >
           <div>
